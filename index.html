@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Manisha Singhal</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Manisha Singhal</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Manisha Singhal</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section__pic-container">
+                <img src="./assets/profile-pic_1.png" alt="Manisha Singhal's profile picture">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1"></p>
+                <h1 class="title">Dr. Manisha Singhal</h1>
+                <p class="section__text__p2">Renowned Psychologist, Choreographer, & Karv Maga Expert</p>
+                <div class="btn-container">
+                    <button
+                      class="btn btn-color-2"
+                      onclick="window.open('./assets/manisha-singhal-resume.pdf')"
+                    >
+                      Download CV
+                    </button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                      Contact Info
+                    </button>
+                  </div>
+                  <div id="socials-container">
+                    <img 
+                    src="./assets/linkedin.png" 
+                    alt="My LinkedIn Profile" 
+                    class="icon" 
+                    onclick="location.href='https://www.linkedin.com/in/manisha-singhal-55069530/'"
+                    />
+                    <img 
+                    src="./assets/youtube.png" 
+                    alt="My Youtube Profile" 
+                    class="icon" 
+                    onclick="location.href='https://www.youtube.com/@manishasinghal8969'"
+                    />
+                  </div>
+            </div>
+        </section>
+        <section id="philosophy">
+            <div class="section-container philosophy-container">
+                <div class="section__text philosophy-text">
+                    <h2 class="title">My Philosophy</h2>
+                    <p class="philosophy-statement">
+                        "Empowering individuals, especially women, through mental well-being and self-defence"
+                    </p>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'"/>
+        </section>
+        <section id="about">
+            <p class="section__text__p1">Experience</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/about-pic.jpg" alt="Profile picture" class="about-pic" />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/brain.png" alt="Psychology icon" class="icon" />
+                            <h3>Psychology</h3>
+                            <p>12+ Years <br/ > Stress Management, Marital Counseling, <br/> Child Development, etc.</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/female-flamenco-dancer.png" alt="Dance icon" class="icon" />
+                            <h3>Dance</h3>
+                            <p>Professionally Trained Dancer <br/> Founder of Beats & Rhythm studio <br/> Specializes in Jazz and Bharatanatyam.</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/karate.png" alt="Karv-maga icon" class="icon" />
+                            <h3>Karv Maga</h3>
+                            <p>Member of the International Ultimate Krav Maga Foundation (IUKMF)<br/>Trainer to civilians and paramilitary forces.</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="Education icon" class="icon" />
+                            <h3>Education</h3>
+                            <p>Doctor of Philosophy, Clinical Psychology 2013<br/>M.Sc. Counselling and Psychotherapy 2009<br />B.Sc. Biology 1997</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            Dr. Manisha Singhal, a renowned psychologist in Delhi/NCR with over 12 years of experience, specializes in stress management, marital counseling, and child development, among other areas. She is also a professionally trained dancer and founder of Beats & Rhythm studio, mastering styles like Jazz and Bharatanatyam. Additionally, as a member of the International Ultimate Krav Maga Foundation (IUKMF), she trains civilians and paramilitary forces in self-defense. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+        </section>
+        <section id="experience">
+            <p class="section__text__p1"></p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Psychologist & Psychotherapist</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Stress & Anxiety Management</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Marital Counselling</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>De-addiction</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>IQ & Learning Disability</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Child, Teenage & Old Age Issues</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Psychological Testing (ADHD, IQ, EQ, Personality, Memory, OCD)</h3>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Dance</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Jazz</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Contemporary</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Ballet</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Hip-Hop</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Shuffling</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Horton</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Modern</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Flamenco</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Salsa</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Afrojack</h3>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Bollywood</h3>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Karv Maga</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                                <div>
+                                    <h3>Warrior</h3>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+        </section>
+        <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Work</h1>
+            <div class="experience-details-container">
+              <div class="about-containers">
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./assets/project-1.png"
+                      alt="Project 1"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Psychology & Psychotherapy</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://www.youtube.com/@manishasinghal8969'"
+                    >
+                      Explore
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./assets/project-2.png"
+                      alt="Project 2"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Beats & Rhythm</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://www.youtube.com/@BeatsNRhythm'"
+                    >
+                      Explore
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./assets/project-3.png"
+                      alt="Project 3"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Karv Maga</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/'"
+                    >
+                      Explore
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="./assets/arrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#contact'"
+            />
+        </section>
+        <section id="contact">
+            <p class="section__text__p1">Get In Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                    <p><a href="mailto:mani_15aug@yahoo.co.in">mani_15aug@yahoo.co.in</a></p>
+                </div>
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                    <p><a href="https://www.linkedin.com/in/manisha-singhal-55069530/">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>Copyright &#169; 2024 Manisha Singhal. All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>  
+    </body>
+</html>
